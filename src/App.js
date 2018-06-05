@@ -68,7 +68,7 @@ class App extends Component {
         {/* <img src={logo} className="App-logo" alt="logo" /> */}
         <h1 className="App-title">{this.state.minutesElapsed < 10 ? '0' + this.state.minutesElapsed : this.state.minutesElapsed}:{this.state.secondsElapsed < 10 ? "0" + this.state.secondsElapsed : this.state.secondsElapsed}</h1>
         <button className="Count-Button" onClick={this.startClick}>{this.state.isCounting ? "stop" : "start"}</button>
-        <h3 style={{ fontWeight: 10, marginTop: "60px" }}>今日總計 {this.state.mileStone} 顆</h3>
+        <h3 style={{ fontWeight: 10, marginTop: "60px" }}>今日要總計 {this.state.mileStone} 顆</h3>
       </div>
 
     );
