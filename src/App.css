@@ -1,0 +1,45 @@
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  text-align: center;
+  /* height: 100%; */
+  width: 100%;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+}
+
+.App-title {
+  font-size: 800%;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.Count-Button{
+  background-color: rgba(190, 184, 184, 0.2);
+  color: white;
+  width: 300px;
+  height: 80px;
+  font-size: 200%;
+  font-style: normal;
+  border-radius: 50px;
+  /* animation: myanimation 10s infinite; */
+  
+}
+
+@keyframes myanimation {
+  0% {background-color: red;}
+  25%{background-color:rgb(255, 174, 0);}
+  50%{background-color:green;}
+  75%{background-color:brown;}
+  100% {background-color: red;}
+}
